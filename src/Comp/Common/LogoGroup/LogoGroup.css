@@ -1,0 +1,10 @@
+.logo-group{
+    padding: 40PX 0;
+}
+.logo-group .row{
+    display: flex;
+    align-items: center;
+}
+.logo-group .row img{
+    width: 85%;
+}

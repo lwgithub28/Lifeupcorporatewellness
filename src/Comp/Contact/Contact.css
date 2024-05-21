@@ -1,0 +1,118 @@
+#contact-page #all-banner {
+    background-image: url("../../Assests/img/ContactBanner.webp");
+
+}
+
+#contact-page .main-head {
+    margin-bottom: 10px;
+}
+
+#contact-page .text-desc {
+    color: #000;
+    font-size: 17px;
+}
+
+/* getInTouch start */
+#getInTouch {
+    padding-top: 60px;
+}
+
+#getInTouch .main-head {
+    font-weight: 600;
+}
+
+#getInTouch img {
+    width: 95%;
+}
+
+#getInTouch a {
+    display: flex;
+    align-items: center;
+    color: #000;
+    padding-top: 20px;
+}
+
+#getInTouch a svg {
+    font-size: 26px;
+}
+
+#getInTouch a p {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+.getInTouch-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* contactNow start */
+#contactNow {
+    background-color: #EBDF1B;
+    padding: 60px 0 70px 0;
+    margin-bottom: -103px;
+}
+
+#contactNow p {
+    color: #000;
+    font-size: 17px !important;
+    font-weight: 600;
+    background-color: transparent;
+    z-index: 9999;
+    position: relative;
+}
+
+#contactNow .row {
+    display: flex;
+    align-items: center;
+}
+
+.contactNowBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.email-sent {
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+
+}
+.email-sent svg{
+    color: green;
+    padding-left: 7px;
+    font-size: 33px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+    .getInTouch-inner {
+        padding-top: 20px;
+    }
+
+    #contactNow .contactNowBtn {
+        padding-top: 20px;
+        justify-content: flex-start;
+        z-index: 99999;
+        position: relative;
+    }
+
+    #getInTouch {
+        padding-top: 40px;
+    }
+
+    #getInTouch img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:992px) {
+
+    #getInTouch img {
+        width: 50%;
+    }
+}

@@ -1,0 +1,14 @@
+.number-counter h1 {
+    color: #EBDF1B;
+    font-size: 90px;
+    line-height: 70px;
+}
+.number-counter .col-md-3{
+    text-align: center;
+}
+.number-counter p {
+    font-weight: 600;
+}
+.container.number-counter {
+    padding: 50px 0;
+}
