@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: LexendDeca;
+}
+
+@font-face {
+  font-family: LexendDeca;
+  src: url(./Assests/All-Fonts/LexendDeca/LexendDeca-main.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url(./Assests/All-Fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Light;
+  src: url(./Assests/All-Fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(./Assests/All-Fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Thin;
+  src: url(./Assests/All-Fonts/Poppins/Poppins-Thin.ttf);
+}
+
+/* universal css */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+p {
+  margin-bottom: 0;
+  font-family: Poppins-Regular;
+}
+
+.for-top-spacing {
+  /* padding-top: 90px; */
+  padding-bottom: 100px;
+}
+
+.yellow-txt {
+  color: #ebdf1b;
+}
+
+.h4-head {
+  font-size: 28px;
+  color: #fff;
+}
+
+.text-desc {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 300;
+}
+
+.main-head {
+  color: #000;
+  text-transform: capitalize;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+#all-banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#all-banner h1 {
+  font-size: 55px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.yellow-btn:active {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: none;
+}
+
+.yellow-btn {
+  border: none;
+}
+
+span.error {
+  color: red;
+}
+
+span.fullWidth {
+  width: 100%;
+}
+
+/* privacy policy start */
+#Privacy-page #all-banner {
+  background-image: url("./Assests//img/about-banner.webp");
+}
+
+.Privacy-pageContent {
+  padding: 50px 0;
+}
+
+.Privacy-pageContent .main-head {
+  margin-bottom: 10px;
+}
+
+.Privacy-pageContent h3.h4-head {
+  font-size: 28px;
+  color: #000;
+}
+
+.Privacy-pageContent .InnerText .h4-head,
+.Privacy-pageContent .InnerText .text-desc,
+.Privacy-pageContent .bottom-text-desc {
+  color: #000;
+}
+
+.Privacy-pageContent .InnerText {
+  padding-top: 50px;
+  border-bottom: 1px solid #0000004d;
+  padding-bottom: 25px;
+}
+
+.Privacy-pageContent .InnerText .text-desc {
+  font-size: 18px;
+}
+
+.Privacy-pageContent .InnerText ol {
+  padding-top: 15px;
+}
+
+.Privacy-pageContent .bottom-text-desc {
+  font-size: 18px;
+}
+
+/* * no page start */
+.nopage {
+  background-image: url("../src/Assests/img/about-banner.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.nopage #container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nopage .heading {
+  color: #fff;
+  font-size: 15rem;
+  text-align: center;
+  line-height: 13.7rem;
+}
+
+.nopage .sub-heading {
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.nopage article {
+  width: 80%;
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* * no page end */
+#videoTesti,
+.faq {
+  display: none;
+}
+
+section#blog {
+  padding: 50px 0;
+}
+section#Speaker-page #WorkplaceWellness {
+  padding-top: 60px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  .Privacy-pageContent h3.h4-head {
+    font-size: 18px !important;
+  }
+
+  .Privacy-pageContent .InnerText .h4-head {
+    font-size: 28px !important;
+  }
+
+  #navbar .dropdown-content li {
+    padding-bottom: 0px !important;
+  }
+
+  #navbar .navbar {
+    position: absolute !important;
+  }
+
+  .for-top-spacing {
+    padding-top: 90px;
+  }
+
+  .nopage {
+    padding-top: 100px;
+  }
+
+  .nopage .heading {
+    font-size: 8rem;
+  }
+
+  .nopage .sub-heading {
+    margin-top: -3rem;
+    font-size: 1.5rem;
+  }
+
+  .nopage {
+    padding-bottom: 160px;
+  }
+}
+
+/* ----------------------- */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .Privacy-pageContent h3.h4-head {
+    font-size: 20px !important;
+  }
+
+  .Privacy-pageContent .InnerText .h4-head {
+    font-size: 30px !important;
+  }
+
+  #navbar .navbar {
+    position: absolute !important;
+  }
+
+  .for-top-spacing {
+    padding-top: 90px;
+  }
+
+  .nopage {
+    padding-top: 100px;
+  }
+
+  .nopage .heading {
+    font-size: 8rem;
+  }
+
+  .nopage .sub-heading {
+    margin-top: -3rem;
+    font-size: 1.5rem;
+  }
+
+  .nopage {
+    padding-bottom: 160px;
+  }
+}

@@ -1,0 +1,203 @@
+#Learning-page #all-banner {
+  background-image: url("../../Assests/img/learningbanner.webp");
+}
+
+#Conferences-page #all-banner {
+  background-image: url("../../Assests/img/learningbanner.webp");
+}
+#extended-page #all-banner {
+  background-image: url("../../Assests/img/learningbanner.webp");
+}
+.LearningSection .h4-head,
+.LearningSection .text-desc {
+  color: #000;
+}
+
+.LearningSection .h4-head {
+  margin-bottom: 10px;
+  font-size: 42px;
+}
+
+.LearningSection ul {
+  padding: 12px 0;
+}
+
+.LearningSection ul li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.LearningSection ul li span {
+  display: flex;
+  align-items: center;
+}
+
+.LearningSection ul li span h6 {
+  font-weight: 500;
+  font-size: 20px;
+  padding-left: 7px;
+  margin-bottom: 0;
+}
+
+.LearningSection ul li span img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.LearningSection .text-desc {
+  font-size: 17px;
+}
+
+section#LunchLearn,
+#ContentCreation {
+  padding: 60px 0;
+}
+
+.LearningSection .LearningSectionText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* --------------------------- */
+/* WellnessClasses start */
+#WellnessClasses {
+  background-image: url("../../Assests/img/WellnessClassess.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 50px 0 0 0;
+}
+
+#WellnessClasses .h4-head {
+  color: #ebdf1b;
+  margin-bottom: 10px;
+}
+
+#WellnessClasses .text-desc {
+  font-size: 17px;
+}
+
+/* WellnessClasses end */
+/* ------------------------ */
+#WellnessClasses .LearningSectionText img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ebdf1b;
+}
+
+#WellnessClasses .LearningSectionText h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+
+.WellnessClassesBox {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-right: 50px;
+}
+
+#WellnessClasses .LearningSectionText .firstBox {
+  text-align: center;
+}
+
+#WellnessClasses .LearningSectionText {
+  padding-bottom: 60px;
+}
+
+section#InternalStretching {
+  padding-bottom: 60px;
+}
+
+#WellnessClasses .ContentCreationImg {
+  display: flex;
+  align-items: flex-end;
+}
+
+.Inner-page #scheduleCall .main-head {
+  font-size: 17px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 0;
+  text-transform: inherit;
+}
+
+.Inner-page #contact-form {
+  margin-top: 0px;
+}
+
+.lg-none {
+  display: none;
+}
+
+.chng-align {
+  align-items: start !important;
+}
+
+@media only screen and (max-width: 600px) {
+  #WellnessClasses .LearningSectionText .firstBox {
+    width: 50%;
+  }
+
+  .xs-none {
+    display: none;
+  }
+
+  .lg-none {
+    display: block;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  .LearningSection ul li span h6 {
+    font-size: 17px;
+  }
+
+  section#LunchLearn,
+  #ContentCreation {
+    padding: 40px 0;
+  }
+
+  .WellnessClassesBox {
+    padding-right: 0px;
+  }
+
+  #WellnessClasses .LearningSectionText .firstBox h3 {
+    text-align: center;
+  }
+
+  #WellnessClasses .LearningSectionText h3 {
+    font-size: 14px;
+  }
+
+  .Inner-page .contactNowBtn {
+    justify-content: flex-start;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .sm-none {
+    display: block;
+  }
+
+  .lg-none {
+    display: none;
+  }
+
+  #WellnessClasses .LearningSectionText {
+    padding-bottom: 40px;
+  }
+
+  #WellnessClasses .LearningSectionText h3 {
+    font-size: 18px !important;
+  }
+}

@@ -1,0 +1,252 @@
+#Speaker-page #all-banner {
+  background-image: url("../../Assests/img/SpeakerBanner.webp");
+}
+
+.DerekSpeakerImg {
+  background-image: url("../../Assests//img/derekspeaker.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section#SpeakerInner .DerekSpeakerImg .main-head {
+  color: #ebdf1b;
+  margin-bottom: 12px;
+  font-size: 37px;
+}
+
+section#SpeakerInner .DerekSpeakerImg {
+  padding: 30px;
+  border-radius: 20px;
+}
+
+section#SpeakerInner {
+  padding: 60px 0;
+}
+
+section#SpeakerInner .DerekSpeakerImgText {
+  padding: 22px 0 22px 22px;
+}
+
+section#SpeakerInner .DerekSpeakerImg .text-desc {
+  font-size: 17px;
+}
+
+section#SpeakerInner .DerekSpeakerImgText .main-head {
+  font-size: 28px;
+  margin-bottom: 13px;
+  text-transform: inherit;
+}
+
+section#SpeakerInner .DerekSpeakerImgText .text-desc {
+  color: #000;
+  padding-bottom: 14px;
+  font-size: 17px;
+}
+
+section#SpeakerInner .DerekSpeakerImgText .yellow-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* SpeakerInner end */
+/* -------------------------- */
+/* DiscussionTopics start */
+#DiscussionTopics {
+  background-image: url("../../Assests/img/discussiontopics.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+#DiscussionTopics img {
+  width: 73%;
+}
+
+#DiscussionTopics .main-head {
+  color: #ebdf1b;
+}
+
+.DiscussionTopicsText {
+  padding-right: 80px;
+}
+
+#DiscussionTopics .DiscussionTopicsText-IconBox {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+#DiscussionTopics .DiscussionTopicsText-IconBox img {
+  width: 50px;
+}
+
+#DiscussionTopics .DiscussionTopicsText-IconBox .text-desc {
+  font-size: 17px;
+  line-height: 1.7rem;
+  padding-left: 20px;
+}
+
+/* DiscussionTopics end */
+/* ------------------------- */
+/* online strat */
+#online {
+  padding: 60px 0;
+}
+
+#online .online-top {
+  padding-top: 30px;
+}
+
+/* online end */
+/* ---------------------------- */
+#podcastConference {
+  background-color: #ebdf1b;
+  margin-top: 90px;
+  padding-bottom: 50px;
+}
+
+.podcastConferenceImg {
+  padding: 0;
+}
+
+#podcastConference .podcastConferenceImg img {
+  margin-top: -60px;
+  height: 550px;
+  object-fit: cover;
+}
+
+#podcastConference .podcastConferenceImgtext {
+  padding-right: 150px;
+  padding-left: 30px;
+  padding: 33px 150px 0 30px;
+}
+
+#podcastConference .podcastConferenceImgtext .main-head {
+  margin-bottom: 13px;
+  font-size: 45px;
+}
+
+#podcastConference .podcastConferenceImgtext .text-desc {
+  color: #000;
+  padding-bottom: 17px;
+}
+
+#Speaker-page #videoTesti {
+  margin-top: 0px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  section#SpeakerInner .DerekSpeakerImg {
+    height: 350px;
+  }
+
+  section#SpeakerInner .DerekSpeakerImgText {
+    padding: 22px 0 0px 0px;
+  }
+
+  section#SpeakerInner .DerekSpeakerImgText .main-head,
+  section#SpeakerInner .DerekSpeakerImg .main-head {
+    font-size: 28px !important;
+  }
+
+  section#SpeakerInner .col-lg-8 {
+    padding: 0;
+  }
+
+  section#SpeakerInner {
+    padding: 60px 12px;
+  }
+
+  .DiscussionTopicsText {
+    padding-right: 0px;
+  }
+
+  #DiscussionTopics .DiscussionTopicsText-IconBox .text-desc {
+    font-size: 16px;
+    line-height: 1.4rem;
+  }
+
+  #DiscussionTopics img {
+    width: 100%;
+  }
+
+  #online .online-top {
+    padding-top: 0px;
+  }
+
+  #online img {
+    margin-bottom: 15px;
+  }
+
+  #online {
+    padding: 40px 0;
+  }
+
+  #podcastConference {
+    margin-top: 0px;
+    padding: 15px 15px 35px 15px;
+  }
+
+  #podcastConference .podcastConferenceImg img {
+    margin-top: 0px;
+  }
+
+  #podcastConference .podcastConferenceImg img {
+    height: 260px;
+    margin-bottom: 15px;
+  }
+
+  #podcastConference .podcastConferenceImgtext {
+    padding: 0px 0px 0 0px;
+  }
+
+  section#WorkplaceWellness .h4-head {
+    padding-right: 0px;
+  }
+
+  #contactNow {
+    padding: 30px 0 70px 0 !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  section#SpeakerInner .DerekSpeakerImgText {
+    padding: 22px 0 0px 0px;
+  }
+
+  section#SpeakerInner .DerekSpeakerImg {
+    display: none;
+  }
+
+  section#SpeakerInner {
+    padding-top: 20px;
+  }
+
+  section#SpeakerInner .DerekSpeakerImgText .main-head {
+    font-size: 30px !important;
+    font-weight: 600;
+  }
+
+  #DiscussionTopics img {
+    width: 44%;
+  }
+  .DiscussionTopicsText {
+    padding-top: 25px;
+    padding-right: 0px;
+  }
+  #podcastConference .podcastConferenceImg img {
+    margin-top: 0px;
+  }
+  #podcastConference {
+    margin-top: 0px;
+  }
+  #podcastConference .podcastConferenceImgtext {
+    padding: 33px 0px 0 0px;
+  }
+  #podcastConference {
+    padding: 25px 28px 40px 28px;
+  }
+}

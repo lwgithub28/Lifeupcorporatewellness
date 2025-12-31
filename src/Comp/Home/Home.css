@@ -1,0 +1,1337 @@
+/* home banner css start */
+#home,
+.sm-home {
+  background-image: url("../../Assests/img/home-banner.webp");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+
+#home .home-inner {
+  padding: 40px 0;
+}
+
+#home .home-text {
+  padding-top: 22px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 5%;
+  transform: translate(-16%, -50%);
+}
+
+#home .home-text h2 {
+  font-size: 50px;
+}
+
+#home .home-text p {
+  padding-right: 20px;
+  font-size: 17px;
+  font-weight: 300;
+  padding-bottom: 18px;
+  padding-top: 5px;
+  text-align: justify;
+}
+
+.home-icon svg {
+  font-size: 22px;
+}
+
+/* home banner css end */
+/* ------------------------------- */
+/* video section css start */
+#video-section .container-fluid {
+  overflow: hidden;
+  padding: 0;
+}
+
+#video-section iframe {
+  width: 800px;
+  height: 515px;
+}
+
+#video-section .video-section-inner {
+  background-image: url("../../Assests/img/video-bg.webp");
+  /* width: 100%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#video-section .video-section-inner .video-section-inner-text img {
+  width: 60%;
+}
+
+.VideoImg {
+  background-color: transparent;
+  border: none;
+}
+
+/* video-modal-bg */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  padding: 20px;
+  max-width: 777px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: -21px;
+  right: -44px;
+  cursor: pointer;
+  font-size: 50px;
+  color: #fff;
+}
+
+#video-section .video-black-section {
+  background-color: #000;
+  padding-right: 150px;
+  display: flex;
+  align-items: center;
+  padding: 50px 80px 50px 40px;
+}
+
+#video-section .video-black-section img {
+  width: 140px;
+}
+
+#video-section .video-black-section .h4-head {
+  padding: 20px 0 10px 0;
+}
+
+button.btn.transparent-btn {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  border: 1px solid #ebdf1b;
+  padding: 8px 20px;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button.btn.transparent-btn .home-icon {
+  font-size: 22px;
+  padding-left: 10px;
+  display: flex;
+}
+
+/* video section css end */
+/* ------------------------------- */
+/* HealthWellness start */
+#HealthWellness {
+  background: url("../../Assests/img/HealthWellness-bg.webp");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 40px 0 60px 0;
+}
+
+#HealthWellness .h4-head {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#HealthWellness .text-desc {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+.healthwellenes-number,
+.healthwellenes-number-white {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  position: relative !important;
+}
+
+.healthwellenes-number {
+  border: 2px solid #ebdf1b;
+}
+
+.healthwellenes-number-white {
+  border: 2px solid #fff;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.healthwellenes-number h1,
+.healthwellenes-number-white h1 {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  font-family: Poppins-Regular;
+  margin-bottom: 0;
+}
+
+.healthwellenes-number h1 {
+  font-size: 72px;
+  -webkit-text-stroke-color: #ebdf1b;
+}
+
+.number3 h1 {
+  font-size: 63px;
+}
+
+.healthwellenes-number-white h1 {
+  font-size: 63px;
+  -webkit-text-stroke-color: #fff;
+}
+
+section#HealthWellness .col-md-7 {
+  padding-right: 40px;
+}
+
+.healthwellenes-number span,
+.healthwellenes-number-white span {
+  font-size: 17px;
+  font-weight: 300;
+  padding-left: 30px;
+}
+
+.healthwellenes-number .YellowLine,
+.healthwellenes-number-white .YellowLine {
+  position: absolute;
+  right: 24px;
+  top: 83px;
+}
+
+.healthwellenes-number .YellowLine img,
+.healthwellenes-number-white .YellowLine img {
+  width: 11px;
+}
+
+/* HealthWellness end */
+/* ------------------------------- */
+/* knowledgeQuest start */
+#knowledgeQuest .knowledgeQuest-text {
+  margin-top: -330px;
+}
+
+#knowledgeQuest {
+  padding: 70px 0;
+  display: none;
+}
+
+#knowledgeQuest .h4-head {
+  color: #000;
+  font-size: 33px;
+  font-weight: 600;
+}
+
+#knowledgeQuest .text-desc {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.black-btn {
+  background-color: #000;
+  color: #fff;
+  font-weight: 400;
+}
+
+#knowledgeQuest .black-btn {
+  margin-top: 23px;
+}
+
+/* knowledgeQuest end */
+/* ----------------------------- */
+/* services css start */
+section#services {
+  padding: 90px 0;
+}
+
+#lifestyleCoach {
+  background-image: url("../../Assests/img/lifestylecoachbg.webp");
+  padding: 40px 0 0 0;
+  color: #fff;
+  position: relative;
+}
+
+#lifestyleCoach .lifestyleCoachInner {
+  position: absolute;
+  top: 14%;
+  padding-left: 60px;
+}
+
+#lifestyleCoach .lifestyleCoachInner .h4-head {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+#lifestyleCoach .lifestyleCoachInner h3 {
+  color: #ebdf1b;
+  font-size: 33px;
+  font-weight: 500;
+}
+
+#lifestyleCoach .lifestyleCoachInner .text-desc {
+  font-size: 17px;
+  text-align: justify;
+  padding-top: 20px;
+}
+
+#lifestyleCoach .lifestyleCoachInner .yellow-btn {
+  margin-top: 20px;
+}
+
+/* services css end */
+/* ---------------------------- */
+/* solutions css start */
+#solutions .h4-head {
+  color: #000;
+  font-size: 33px;
+  font-weight: 600;
+}
+
+#solutions .text-desc {
+  color: #000;
+  font-size: 19px;
+}
+
+.before-border-text h4 {
+  margin-bottom: 7px;
+  font-size: 23px;
+  font-weight: 600;
+  padding-left: 15px;
+  margin-top: -6px;
+}
+
+.before-border-text p {
+  padding-left: 15px;
+  font-size: 17px;
+}
+.before-border-text ul li p {
+  padding-left: 0px;
+}
+.before-border-text ul {
+  margin-bottom: 0;
+  padding-top: 5px;
+}
+#solutions .before-border-text::before {
+  content: url("../../Assests/img/before-border.webp");
+}
+
+.before-border-text {
+  display: flex;
+  margin-top: 10px;
+}
+
+.before-border-text span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#solutions .solutions-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#solutions .padding-start .solutions-text {
+  padding-left: 30px;
+}
+
+#solutions .padding-end .solutions-text {
+  padding-right: 60px;
+}
+
+#solutions .solution-best {
+  padding-top: 15px;
+  font-size: 17px;
+}
+
+#solutions .padding-end,
+#solutions .padding-start {
+  padding-top: 60px;
+}
+
+/* faq start */
+section#WorkplaceWellness .h4-head,
+section#WorkplaceWellness .text-desc {
+  color: #000;
+}
+
+section#WorkplaceWellness .h4-head {
+  padding-right: 50px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+section#WorkplaceWellness .text-desc {
+  font-size: 17px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+section#WorkplaceWellness .before-border-text h4 {
+  font-size: 22px;
+  margin-top: 0;
+}
+
+section#WorkplaceWellness .before-border-text {
+  display: flex;
+  margin-bottom: 30px;
+  border-left: 6px solid #ebdf1b;
+}
+
+section#WorkplaceWellness .before-border-text p {
+  padding-bottom: 5px;
+}
+
+section#WorkplaceWellness .black-btn:hover {
+  background-color: #ebdf1b;
+  color: #000;
+}
+
+section#WorkplaceWellness .black-btn {
+  margin-bottom: 10px;
+}
+
+/* WorkplaceWellness end */
+/* -------------------------------- */
+/* contact-form start */
+#contact-form {
+  background-image: url("../../Assests/img/Form.webp");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+  margin-top: 60px;
+}
+
+#contact-form .main-head {
+  font-weight: 400;
+  color: #fff;
+  font-weight: 600;
+}
+
+#contact-form .contact-form-icon {
+  color: #ebdf1b;
+}
+
+#contact-form .contact-form-icon svg {
+  font-size: 19px;
+}
+
+#contact-form form input,
+#contact-form form select,
+#contact-form form textarea {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  padding-left: 10px;
+  width: 100%;
+}
+
+#contact-form form input::placeholder,
+#contact-form form textarea::placeholder {
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+#contact-form form input:focus-visible,
+#contact-form form select:focus-visible,
+#contact-form form textarea:focus-visible {
+  outline: none;
+}
+
+#contact-form .d-flex-roww-left,
+#contact-form .d-flex-roww-right {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1.9px solid #efeaea5e;
+  padding-bottom: 16px;
+}
+
+#contact-form .edit-textarea {
+  align-items: flex-start;
+  height: 100px;
+  display: flex;
+}
+
+#contact-form .d-flex-roww {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+#contact-form select,
+#contact-form textarea {
+  width: 100%;
+}
+
+#contact-form select option {
+  color: #000;
+}
+
+#contact-form .submit-bottom {
+  border-bottom: 1.9px solid transparent;
+  margin-bottom: 0;
+}
+
+#contact-form .submit-bottom .d-flex-roww-left,
+#contact-form .submit-bottom .d-flex-roww-right {
+  border-bottom: 1.9px solid transparent;
+}
+
+#contact-form .submit-bottom .yellow-btn {
+  font-size: 14px;
+}
+
+#contact-form .d-flex-roww.submit-bottom {
+  padding-top: 20px;
+}
+
+/* contact-form end */
+/* --------------------------- */
+/* blog start */
+.zoom-img {
+  height: 450px;
+}
+
+.blog-right-flex .zoom-img {
+  height: 205px;
+  width: 450px;
+}
+
+.blog-right-flex .zoom-img img {
+  height: 205px;
+}
+
+#blog .blog-right.padding-top {
+  margin-top: 40px;
+}
+
+.zoom-img {
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.zoom-img img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  transition: all 0.5s ease;
+}
+
+.zoom-img img:hover {
+  transform: scale(1.1);
+}
+
+#blog .blog-right .blog-right-flex {
+  display: flex;
+}
+
+#blog .blog-right .blog-right-flex {
+  border-radius: 3px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#blog .blog-right .left-blog-txt {
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blog-right h5,
+.blog-right h3 {
+  color: #000;
+}
+
+#blog h5 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#blog h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#blog .blog-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ebdf1b;
+}
+
+#blog .blog-circle:hover {
+  background-color: #000;
+}
+
+#blog .blog-circle:hover svg {
+  color: #fff;
+}
+
+#blog .blog-circle svg {
+  font-size: 22px;
+  color: #000;
+}
+
+.zoom-img-right {
+  width: 100%;
+}
+
+#blog .blog-left {
+  position: relative;
+}
+
+#blog .blog-left-text {
+  padding: 0 20px 20px 20px;
+  position: absolute;
+  bottom: 0;
+  z-index: 9999;
+}
+
+#blog .blog-left-text {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#blog .blog-left-text span {
+  width: 70%;
+}
+
+#blog .blog-left-text .blog-circle {
+  background-color: #fff;
+}
+
+#blog .blog-left-text .blog-circle:hover {
+  background-color: #ebdf1b;
+}
+
+#blog .blog-left-text .blog-circle:hover svg {
+  color: #000;
+}
+
+#blog .blog-left-text h3 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+/* testimonial start */
+#testimonial {
+  background-image: url("../../Assests/img/testi.webp");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0;
+  margin: 50px 0;
+}
+
+/* videoTesti start */
+#videoTesti {
+  background-image: url("../../Assests/img/VideoTesti.webp");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0;
+  margin: 50px 0;
+}
+
+#videoTesti .main-head {
+  color: #fff;
+}
+
+#videoTesti .owl-carousel .owl-nav.disabled {
+  display: block;
+  color: #fff;
+}
+
+/* CSS to replace the navigation icons with Font Awesome icons */
+#videoTesti .owl-prev:before {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-image: url(../../Assests/img/left-icon.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: -40px;
+
+  /* Font Awesome icon code for left arrow */
+}
+
+#videoTesti .owl-next:before {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-image: url(../../Assests/img/right-icon.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background-color: transparent !important;
+}
+
+#videoTesti .owl-carousel .owl-nav.disabled span {
+  display: none;
+}
+
+#videoTesti .owl-carousel .item {
+  background-color: transparent;
+  padding: 20px 10px;
+  text-align: start;
+  border-radius: 0px;
+}
+
+#videoTesti .owl-carousel h3 {
+  color: #ebdf1b;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#videoTesti .video-popup {
+  padding: 12px 0;
+  margin-left: -15px;
+}
+
+#videoTesti button.owl-prev {
+  left: 0;
+}
+
+#videoTesti button.owl-next {
+  right: 0;
+}
+
+#videoTesti button.owl-prev,
+#videoTesti button.owl-next {
+  position: absolute;
+  top: 50%;
+}
+
+#videoTesti .owl-dots {
+  display: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  /* NAVBAR START */
+  .navbar-top {
+    display: none;
+  }
+
+  div#navbar button.navbar-toggler {
+    border: 1px solid #fff;
+    padding: 4px 7px;
+  }
+
+  #navbar .navbar-toggler-icon {
+    background-image: url("../../Assests/img/humburger.webp");
+    width: 1.2em;
+    height: 1.2em;
+  }
+
+  #navbar ul.navbar-nav {
+    background: #fff;
+    z-index: 999;
+    position: relative;
+    opacity: 1;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  #navbar ul.navbar-nav a {
+    color: #000;
+  }
+
+  #navbar ul.navbar-nav li {
+    padding-bottom: 10px;
+  }
+
+  /* NAVBAR END */
+  .sm-none {
+    display: none;
+  }
+
+  /* HOME START */
+  #home .home-text h2 {
+    font-size: 40px;
+  }
+
+  #home .home-text {
+    position: relative;
+    transform: inherit;
+    top: inherit;
+    left: inherit;
+    right: inherit;
+  }
+
+  #home,
+  #HealthWellness {
+    background-image: none;
+  }
+
+  .h4-head {
+    font-size: 35px !important;
+  }
+
+  #HealthWellness .text-desc {
+    font-size: 18px !important;
+  }
+
+  .sm-HealthWellness {
+    background-image: url("../../Assests/img/sm-healthwellnessbg.webp") !important;
+  }
+
+  .sm-home {
+    background-image: url("../../Assests/img/sm-home.webp") !important;
+    height: 100% !important;
+    padding: 30px 0;
+  }
+
+  .sm-text-center {
+    text-align: center;
+  }
+
+  /* HOME END */
+  /* --------------------- */
+  /* VIDEO SECTION START */
+  #video-section .video-section-inner {
+    height: 42vh;
+  }
+
+  #video-section .video-section-inner .video-section-inner-text img {
+    width: 33%;
+  }
+
+  #video-section .video-black-section {
+    padding: 40px 30px;
+  }
+
+  #video-section iframe {
+    width: 300px;
+    height: 515px;
+  }
+
+  #video-section iframe {
+    width: 100%;
+    height: 515px;
+  }
+
+  .modal-close {
+    top: 102px;
+    right: 19px;
+  }
+
+  /* VIDEO SECTION END */
+  /* ----------------------- */
+  /* LOGO GROUP START */
+  .logo-group .row img {
+    width: 60%;
+    padding-bottom: 30px;
+  }
+
+  /* LOGO GROUP END */
+  /* ------------------------- */
+  /* NUMBER-COUNTER START */
+  .number-counter h1 {
+    font-size: 70px;
+  }
+
+  #number-counter {
+    overflow-x: hidden;
+  }
+
+  .number-counter .col-md-3 {
+    padding-bottom: 20px;
+  }
+
+  /* NUMBER-COUNTER END */
+  /* ------------------------- */
+  /* HEALTHWELLNESS START */
+  .healthwellenes-number,
+  .healthwellenes-number-white {
+    flex-direction: column;
+  }
+
+  #HealthWellness {
+    padding: 40px 10px;
+  }
+
+  .healthwellenes-number span,
+  .healthwellenes-number-white span {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  section#HealthWellness .col-md-7 {
+    padding: 0px;
+  }
+
+  .healthwellenes-number .YellowLine,
+  .healthwellenes-number-white .YellowLine {
+    display: none;
+  }
+
+  /* HEALTHWELLNESS END */
+  /* --------------------------- */
+  /* KNOWLEDGEQUESTIMG START */
+  .knowledgeQuestImg {
+    display: none;
+  }
+
+  #knowledgeQuest .knowledgeQuest-text {
+    margin-top: 0px;
+  }
+
+  #knowledgeQuest {
+    background-color: #ebdf1b;
+    padding: 40px 10px;
+  }
+
+  /* KNOWLEDGEQUESTIMG END */
+  /* ----------------------------- */
+  /* CONTACT-FORM START */
+  #contact-form .d-flex-roww {
+    flex-direction: column;
+  }
+
+  /* CONTACT-FORM END */
+  /* ----------------------- */
+  /* SERVICES START */
+  #foundationPiller .piller-box .piller-box-text .h4-head {
+    font-size: 22px !important;
+  }
+
+  #Challenges .ChallengesBox .h4-head {
+    font-size: 28px !important;
+  }
+
+  .services .out-border {
+    margin-bottom: 25px;
+  }
+
+  section#services {
+    padding: 50px 0;
+  }
+
+  #hover-btn .button {
+    max-width: 300px;
+    flex-direction: row-reverse;
+    padding-left: 20px;
+    background-color: #ebdf1b;
+  }
+
+  /* SERVICES END */
+  /* -------------------- */
+  /* SPEAKER START */
+  #podcastConference .podcastConferenceImgtext .main-head {
+    font-weight: 600;
+  }
+
+  /* SPEAKER END */
+  /* ------------------- */
+  /* LIFESTYLECOACH START */
+  #lifestyleCoach .lifestyleCoachInner {
+    position: inherit;
+    padding: 20px;
+  }
+
+  #lifestyleCoach {
+    padding: 40px 0 40px 0;
+  }
+
+  #lifestyleCoach .lifestyleCoachInner .text-desc {
+    font-size: 15px;
+  }
+
+  /* LIFESTYLECOACH END */
+  /* -------------------------- */
+  /* SOLUTIONS START */
+  #solutions .padding-start .solutions-text,
+  #solutions .solutions-text {
+    padding: 25px 15px 0 15px;
+  }
+
+  #solutions .padding-end .solutions-text {
+    padding-right: 0px;
+  }
+
+  #solutions .h4-head {
+    font-size: 28px !important;
+  }
+
+  #solutions .padding-end .row {
+    flex-direction: column-reverse;
+  }
+
+  #solutions .padding-end {
+    padding-top: 30px;
+  }
+
+  #solutions .solutions-text {
+    padding-top: 25px;
+  }
+
+  #solutions .before-border-text h4 {
+    font-size: 18px;
+  }
+
+  /* SOLUTIONS END */
+  /* --------------------- */
+  /* VIDEOTESTI START */
+  #videoTesti .owl-next:before {
+    width: 30px;
+    height: 30px;
+  }
+
+  #videoTesti .owl-dots {
+    display: block;
+  }
+
+  #videoTesti .owl-carousel .owl-nav.disabled {
+    display: none;
+  }
+
+  #videoTesti .owl-carousel .item {
+    padding: 0px 0px 20px 0;
+  }
+
+  #videoTesti .main-head {
+    margin-bottom: 25px;
+  }
+
+  /* VIDEOTESTI END */
+  /* ----------------------- */
+  /* BLOG START */
+
+  #blog .blog-left-text span {
+    width: 80%;
+  }
+
+  #blog .blog-left-text h3 {
+    font-size: 18px;
+  }
+
+  #blog .blog-right {
+    margin-top: 30px;
+  }
+
+  #blog h3 {
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  #blog .blog-right .left-blog-txt {
+    padding: 10px 20px 0px 20px;
+  }
+
+  #blog .main-head {
+    margin-bottom: 20px;
+  }
+
+  #blog .zoom-img {
+    height: auto;
+  }
+
+  /* BLOG END */
+  /* ------------------- */
+  /* TESTIMONIAL START */
+  #testimonial .item {
+    padding: 20px 20px;
+  }
+
+  /* TESTIMONIAL END */
+  /* ----------------------- */
+  /* WORKPLACEWELLNESS START */
+  section#WorkplaceWellness .before-border-text h4 {
+    font-size: 18px;
+  }
+
+  section#WorkplaceWellness .before-border-text {
+    margin-bottom: 20px;
+  }
+
+  section#WorkplaceWellness .book-img {
+    padding-top: 20px;
+  }
+
+  /* WORKPLACEWELLNESS END */
+  /* --------------------------- */
+  /* CONTACT-FORM START */
+  #contact-form {
+    background-position: left;
+  }
+
+  /* CONTACT-FORM END */
+  /* ---------------------- */
+  /* FAQ START  */
+  .faq .accordion-body p {
+    padding-right: 0px;
+  }
+
+  .faq {
+    padding: 50px 0;
+  }
+
+  /* FAQ END  */
+  /* --------------- */
+  /* FOOTER START */
+  #footer .office-list {
+    padding-left: 0px !important;
+    padding-top: 10px !important;
+  }
+
+  #footer .footer-map {
+    padding-top: 0px !important;
+  }
+
+  /* FOOTER END */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  /* NAVBAR-TOP */
+  .navbar-top {
+    display: none;
+  }
+
+  /* NAVBAR */
+  #navbar .navbar-toggler-icon {
+    background-image: url(data:image/png;base64,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);
+    width: 1.2em;
+    height: 1.2em;
+  }
+
+  div#navbar button.navbar-toggler {
+    border: 1px solid #fff;
+    padding: 4px 7px;
+  }
+
+  /* HOME */
+  .sm-home {
+    background-image: url("../../Assests/img/sm-home.webp") !important;
+    height: 100% !important;
+    padding: 30px 0;
+  }
+
+  #home .home-text {
+    position: relative;
+    transform: inherit;
+    top: inherit;
+    left: inherit;
+    right: inherit;
+  }
+
+  /* VIDEO-SECTION */
+  #video-section .video-section-inner {
+    height: 91vh;
+  }
+
+  #video-section .video-black-section {
+    padding: 40px;
+  }
+
+  #video-section iframe {
+    width: 100%;
+    height: 515px;
+  }
+
+  /* NUMBER-COUNTER  */
+  .number-counter h1 {
+    color: #ebdf1b;
+    font-size: 55px;
+    line-height: 70px;
+  }
+
+  /* HEALTHWELLNESS */
+  .sm-HealthWellness {
+    background-image: url("../../Assests/img/sm-healthwellnessbg.webp") !important;
+  }
+
+  /* KNOWLEDGEQUEST */
+  .container.knowledgeQuestbg img {
+    display: none;
+  }
+
+  #knowledgeQuest .knowledgeQuest-text {
+    margin-top: 0px;
+  }
+
+  #knowledgeQuest {
+    background-color: #ebdf1b;
+    padding: 40px 10px;
+  }
+
+  /* SERVICES */
+  .services .out-border {
+    margin-bottom: 30px;
+  }
+
+  .row.sm-none {
+    display: none;
+  }
+
+  #lifestyleCoach .lifestyleCoachInner {
+    position: inherit;
+    padding-bottom: 50px;
+    /* top: 14%;
+        padding-left: 60px; */
+  }
+
+  #solutions .h4-head {
+    padding-top: 20px;
+  }
+
+  #contact-form {
+    background-position: left;
+  }
+
+  .container.padding-end .row {
+    flex-direction: column-reverse;
+  }
+
+  .faq .accordion-body p {
+    padding-right: 0px;
+  }
+
+  #lifestyleCoach .lifestyleCoachInner {
+    padding-left: 0px;
+  }
+
+  #solutions .padding-start .solutions-text {
+    padding-left: 0px;
+  }
+
+  #solutions .padding-end .solutions-text {
+    padding: 0;
+  }
+
+  #videoTesti .owl-prev:before {
+    width: 40px;
+    height: 40px;
+    margin-left: -26px;
+  }
+
+  #videoTesti .owl-next:before {
+    width: 40px;
+    height: 40px;
+  }
+
+  #footer .office-list {
+    padding-left: 0px;
+  }
+
+  .book-img {
+    margin-top: 30px;
+  }
+
+  .sm-home {
+    padding: 70px 0 100px 0;
+  }
+
+  .logo-group .row img {
+    width: 100%;
+  }
+
+  .services .services-box {
+    height: 400px;
+  }
+
+  .h4-head {
+    font-size: 45px !important;
+  }
+
+  #knowledgeQuest .knowledgeQuest-text .h4-head {
+    font-size: 35px !important;
+  }
+
+  .services .services-box .h4-head {
+    font-size: 33px !important;
+  }
+
+  #solutions .padding-start img,
+  #solutions .padding-end img {
+    width: 50%;
+  }
+
+  #blog .blog-right {
+    margin-top: 0px;
+  }
+
+  #blog .blog-right {
+    margin-top: 42px;
+  }
+
+  section#WorkplaceWellness img {
+    width: 50%;
+  }
+
+  #footer .office-list {
+    padding-left: 0px;
+  }
+
+  .modal-close {
+    top: 0px;
+    right: 18px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .sm-home {
+    background-image: url("../../Assests/img/sm-home.webp") !important;
+    height: 100% !important;
+    padding: 80px 0;
+  }
+
+  #home .home-text {
+    position: relative;
+    transform: inherit;
+    top: inherit;
+    left: inherit;
+    right: inherit;
+  }
+
+  .sm-none {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .VideoImg {
+    padding: 330px 0;
+  }
+}

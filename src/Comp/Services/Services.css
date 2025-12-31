@@ -1,0 +1,492 @@
+#Services-page #all-banner {
+  background-image: url("../../Assests/img/ServiceBanner.webp");
+}
+
+/* services start */
+#services .h4-head {
+  color: #000;
+  margin-bottom: 30px;
+}
+
+#services .services .main-head {
+  display: none;
+}
+
+#services .services .h4-head {
+  color: #fff;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+#Services-page #services {
+  padding: 40px 0;
+}
+
+/* services end */
+/* ------------------- */
+/* scheduleCall start */
+#Services-page #scheduleCall .main-head {
+  font-size: 17px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 0;
+  text-transform: inherit;
+  line-height: 1.6rem;
+}
+
+/* scheduleCall end */
+/* ------------------------- */
+/* foundation piller start */
+#foundationPiller .black-piller {
+  background-color: #000;
+  padding: 20px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#foundationPiller .piller-boxLogo {
+  display: flex;
+  justify-content: center;
+}
+
+#foundationPiller .piller-boxLogo img {
+  width: 50%;
+  padding-bottom: 10px;
+}
+
+#foundationPiller .piller-box.black-piller .h4-head {
+  font-size: 24px;
+  color: #fff;
+}
+
+#foundationPiller .piller-box.black-piller .text-desc {
+  font-size: 12.5px;
+  text-align: justify;
+}
+
+#foundationPiller .piller-box .piller-box-text .h4-head,
+#foundationPiller .piller-box .piller-box-text .text-desc {
+  color: #000;
+}
+
+#foundationPiller .piller-box .piller-box-img {
+  padding: 0;
+}
+
+#foundationPiller .piller-box .piller-box-text {
+  padding: 10px;
+  border: 1px solid #000;
+  border-left: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 340px;
+}
+
+#foundationPiller .piller-box .piller-box-img img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+}
+
+#foundationPiller .piller-box .counting {
+  color: #ccc !important;
+  font-size: 28px;
+  margin-bottom: 0;
+}
+
+#foundationPiller .piller-box .piller-box-text .h4-head {
+  font-size: 22px;
+}
+
+#foundationPiller .piller-box .piller-box-text .text-desc {
+  text-align: left;
+  font-size: 14px;
+}
+
+#foundationPiller .pillars-box .container {
+  padding: 0 10px;
+}
+
+.foundationPillerTopSpacing {
+  padding-top: 30px;
+}
+
+#foundationPiller {
+  padding: 60px 0;
+}
+
+/* foundation piller end */
+/* ----------------------------- */
+/* blackContactNow start */
+#blackContactNow {
+  background-color: #000;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#blackContactNow .text-desc {
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+
+#blackContactNow .container {
+  display: flex;
+  justify-content: center;
+}
+
+#blackContactNow .container .row {
+  width: 60%;
+}
+
+/* blackContactNow end */
+/* ---------------------------- */
+/* conversationHealth start */
+#conversationHealth {
+  padding: 60px 0;
+}
+
+#conversationHealth .h4-head,
+#conversationHealth .text-desc {
+  color: #000;
+}
+
+#conversationHealth .h4-head {
+  font-size: 40px;
+  padding-right: 50px;
+}
+
+#conversationHealth .text-desc {
+  font-size: 18px;
+}
+
+#conversationHealth .conversationHealthBox {
+  display: flex;
+  padding-top: 30px;
+  padding-right: 20px;
+}
+
+#conversationHealth .conversationHealthBox .img {
+  width: 28%;
+  padding-right: 20px;
+}
+
+#conversationHealth .conversationHealthBox img {
+  object-fit: cover;
+  height: 200px;
+  border-radius: 16px;
+}
+
+#conversationHealth .conversationHealthBox .text {
+  padding-left: 5px;
+  width: 78%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#conversationHealth .conversationHealthBox .h4-head {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+#conversationHealth .conversationHealthBox .text-desc {
+  font-size: 17px;
+}
+.visibility-none {
+  visibility: hidden;
+}
+/* conversationHealth end */
+/* ------------------------------- */
+/* ProfessionalPerspective start */
+#ProfessionalPerspective {
+  background-image: url("../../Assests/img/ProfessionalPerspective.webp");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 100px 0;
+}
+
+#ProfessionalPerspective .main-head {
+  font-size: 45px;
+  margin-bottom: 19px;
+  color: #fff;
+}
+
+#ProfessionalPerspective .text-desc {
+  font-size: 17px;
+}
+
+/* ProfessionalPerspective end */
+/* --------------------------------- */
+#Challenges {
+  background-color: #000;
+  padding: 80px 0;
+}
+
+#Challenges .h4-head {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#Challenges .text-desc {
+  font-size: 18px;
+  width: 60%;
+}
+
+#Challenges .ChallengesBox .h4-head {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+#Challenges .ChallengesBox .text-desc {
+  font-size: 17px;
+  width: 100%;
+  padding: 0 30px;
+}
+
+.ChallengesBox {
+  text-align: center;
+}
+
+.ChallengesTop {
+  padding-top: 60px;
+}
+
+#Challenges .ChallengesBox img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #ebdf1b;
+}
+
+/* Challenges end */
+/* ------------------------- */
+/* WorkplaceWellness start */
+#Services-page #WorkplaceWellness {
+  padding: 60px 0;
+}
+
+#Services-page #contact-form {
+  margin-top: 0px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  #ProfessionalPerspective {
+    background-position: left;
+    padding: 50px 0;
+  }
+
+  #scheduleCall .main-head {
+    font-weight: 400;
+    font-size: 18px !important;
+  }
+
+  #Services-page .contactNowBtn {
+    justify-content: flex-start;
+  }
+
+  #scheduleCall .row img {
+    padding-bottom: 15px;
+  }
+
+  #foundationPiller .container {
+    padding: 0;
+  }
+
+  #foundationPiller {
+    padding: 50px 15px;
+  }
+
+  #foundationPiller .black-piller,
+  .piller-box.pillars-box {
+    margin-bottom: 20px;
+  }
+  #foundationPiller .black-piller {
+    height: auto;
+  }
+  #foundationPiller .piller-box .piller-box-text {
+    border-left: 1px solid #000;
+    padding: 20px;
+    height: auto;
+  }
+  .foundationPillerTopSpacing {
+    padding-top: 0px;
+  }
+  #blackContactNow .container {
+    display: inherit;
+  }
+
+  #blackContactNow .container .row {
+    width: 100%;
+  }
+
+  #conversationHealth .h4-head {
+    padding-right: 0px;
+    font-weight: 600;
+    font-weight: 28px !important;
+    font-weight: 600;
+  }
+
+  #conversationHealth .conversationHealthBox {
+    flex-direction: column;
+  }
+
+  #conversationHealth .conversationHealthBox .img,
+  #conversationHealth .conversationHealthBox .text {
+    width: 100%;
+  }
+
+  #conversationHealth .conversationHealthBox {
+    padding-right: 0px;
+  }
+
+  #conversationHealth .conversationHealthBox .text {
+    padding-top: 20px;
+  }
+
+  #conversationHealth .conversationHealthBox .text .h4-head {
+    font-size: 25px !important;
+  }
+
+  #conversationHealth .col-md-4 {
+    padding-top: 20px;
+  }
+
+  #Challenges .h4-head {
+    font-weight: 600;
+  }
+
+  #Challenges .text-desc {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  #Challenges .h4-head,
+  #Challenges .text-desc {
+    text-align: center;
+  }
+
+  #Challenges {
+    padding: 40px 0;
+  }
+
+  .ChallengesTop {
+    padding-top: 30px;
+  }
+
+  .ChallengesBox {
+    padding-bottom: 40px;
+  }
+
+  #footer .footer-list {
+    padding-top: 0px;
+  }
+
+  img.conversationHealthImg {
+    padding-top: 30px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #scheduleCall .main-head {
+    font-size: 18px !important;
+  }
+
+  .contactNowBtn {
+    padding-top: 20px;
+    justify-content: center !important;
+  }
+
+  #foundationPiller .black-piller {
+    height: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  #foundationPiller .piller-boxLogo img {
+    width: 40%;
+  }
+
+  .foundationPillerTopSpacing {
+    padding-top: 0px;
+  }
+
+  #foundationPiller .piller-box {
+    margin-bottom: 30px;
+  }
+
+  #foundationPiller .piller-box.black-piller .h4-head {
+    font-size: 34px !important;
+  }
+
+  #foundationPiller .piller-box.black-piller .text-desc {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #foundationPiller .piller-box .piller-box-text .h4-head {
+    font-size: 32px !important;
+  }
+
+  #foundationPiller .piller-box .piller-box-img img {
+    height: 276px;
+  }
+
+  #foundationPiller {
+    padding: 40px 0;
+  }
+
+  #blackContactNow .container .row {
+    width: 100%;
+  }
+
+  #conversationHealth .conversationHealth-inner {
+    flex-direction: column-reverse;
+  }
+
+  img.conversationHealthImg {
+    display: none;
+  }
+
+  #conversationHealth .conversationHealthBox .img {
+    width: 35%;
+    padding-right: 20px;
+  }
+
+  #conversationHealth .conversationHealthBox .h4-head {
+    font-size: 25px !important;
+  }
+
+  #conversationHealth .h4-head {
+    padding-right: 0px;
+  }
+
+  #Challenges .text-desc {
+    width: 100%;
+  }
+
+  #Challenges .ChallengesBox .h4-head {
+    font-size: 22px !important;
+  }
+
+  #Challenges .ChallengesBox img {
+    height: 150px;
+    width: 150px;
+  }
+
+  #Challenges .ChallengesBox .text-desc {
+    padding: 0 0px;
+  }
+
+  #foundationPiller .piller-box .piller-box-text .counting {
+    font-size: 40px !important;
+  }
+}
